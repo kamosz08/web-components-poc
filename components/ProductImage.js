@@ -20,7 +20,6 @@ class ProductImage extends HTMLElement {
     super();
     this.attachShadow({mode: 'open'});
     this.shadowRoot.appendChild(template.content.cloneNode(true));
-    console.log(this);
   }
 
   get src() {
